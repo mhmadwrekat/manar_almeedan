@@ -49,7 +49,7 @@ return (
             <nav id="header" className="top-0 z-30 w-full font-sans text-white bg-white">
               <div className="container flex flex-wrap items-center justify-between w-full py-2 pl-2 mx-auto mt-0">
                 <Link href='/'>
-                  <img className='w-3/12 sm:w-1/12 hover:scale-110 cursor-grab'
+                  <img className='w-2/12 sm:w-1/12 hover:scale-110 cursor-grab'
                     src='./assest/logo.jpg' />
                 </Link>
                 <div class="flex items-right mt-2 mx-5">
