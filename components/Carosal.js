@@ -13,7 +13,7 @@ const Carosal = () => {
     SwiperCore.use([Autoplay]);
     return (
         <>
-            <section className='p-0'>
+            <section className='p-0 lg:p-20 lg:pt-0'>
                 <Swiper
                     // install Swiper modules
                     modules={[EffectFade, Navigation, Pagination, Scrollbar, A11y]}
@@ -54,6 +54,21 @@ const Carosal = () => {
                     <SwiperSlide>
                         <img src="./assest/carosal5.jpg"
                             className="block w-full shadow-2xl" 
+                            />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./assest/carosal6.jpg"
+                            className="block w-full hadow-2xl" 
+                            />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./assest/carosal7.jpg"
+                            className="block w-full hadow-2xl" 
+                            />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./assest/carosal8.jpg"
+                            className="block w-full hadow-2xl" 
                             />
                     </SwiperSlide>
                 </Swiper>
